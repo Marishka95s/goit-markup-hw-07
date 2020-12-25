@@ -1,17 +1,17 @@
-@import './utils/variables.scss';
-@import './utils/modern-normalize.scss';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/utils/variables';
 
-@import './general/container';
-@import './general/common';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/base/modern-normalize.scss';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/base/container';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/base/common';
 
-@import './components/header';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/components/header';
 
-@import './components/hero';
-@import './components/features';
-@import './components/examples';
-@import './components/team';
-@import './components/clients';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/components/hero';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/components/features';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/components/examples';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/components/team';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/components/clients';
 
-@import './components/footer';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/components/footer';
 
-@import './components/portfolio';
+@import '/progects/GitHub-PROJECTS/goit-markup-hw-07/sass/components/portfolio';

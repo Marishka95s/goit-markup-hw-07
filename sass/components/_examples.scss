@@ -1,27 +1,24 @@
-/* EXAMPLES */
-.examples {
+//* EXAMPLES */
+  .examples {
     padding-top: 0px;
     z-index: 100;
   }
   .examples__title {
-    margin-top: 0;
-    margin-right: 0;
     margin-bottom: 50px;
-    margin-left: 0;
   }
   .examples-list {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
     padding-inline-start: 0;
   }
   .examples-list__item {
     display: block;
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
-  }
-  .examples-list__item:last-child {
-    margin-right: 0px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
   }
   .examples-list__link {  
     position: relative;
@@ -37,6 +34,6 @@
     width: 370px;
     height: 70px;
   
-    color: var(--additional-color);
-    background-color: rgba(47, 48, 58, 0.8);
+    color: $additional-color;
+    background-color: $third-additional-color;
   }
