@@ -84,9 +84,10 @@
   }
   .contact-nav__item {
     margin-right: 50px;
-  }
-  .contact-nav__item:last-child {
-    margin-right: 0px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
   }
   .contact-nav__link {
     display: flex;
@@ -101,15 +102,16 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+    color: $accent-color;
+    --color4: $accent-color;
+    fill: $accent-color;
+  }
   }
   .contact-nav__icon {
     display: block;
     margin-right: 10px;
   }
-  .contact-nav__link:hover,
-  .contact-nav__link:focus {
-    color: $accent-color;
-    --color4: $accent-color;
-    fill: $accent-color;
-  }
+  
   
