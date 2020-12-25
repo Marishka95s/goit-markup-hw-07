@@ -1,0 +1,115 @@
+/* FOOTER */
+.footer {
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer--unlimited {
+    background-color: #2f303a;
+  }
+  
+  .footer__left-part {
+    min-width: 231px;
+  }
+  .footer-contacts {
+    margin-top: 20px;
+  }
+  .footer-contacts__list {
+    padding-inline-start: 0;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .footer-contacts__item {
+    margin-bottom: 9px;
+  
+    color: var(--additional-color);
+  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .footer-contacts__item:last-child {
+    margin-bottom: 0px;
+  }
+  .footer-contacts__link {
+    color: var(--second-additional-color);
+  }
+  
+  .footer__сenter-part {
+    margin-left: 70px;
+    margin-right: 93px;
+    width: 206px;
+  }
+  .footer__invitation {
+    color: var(--additional-color);
+    margin-bottom: 20px;
+  }
+  .social-links--footerish {
+    padding: 0;
+    --color5: var(--additional-color);
+  }
+  
+  .footer__right-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-submit {
+    display: flex;
+  }
+  .form-submit__input {
+    margin-right: 12px;
+    padding-top: 15px;
+    padding-right: 16px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+  
+    color: rgba(255, 255, 255);
+    background-color: #2f303a;
+  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+  
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+  .form-submit__input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .button-submit {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    padding-top: 10px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+  
+    background-color: var(--accent-color);
+    color: var(--additional-color);
+    --color5: var(--additional-color);
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    border: none;
+  }
+  .button-submit__icon {
+    margin-left: 10px;
+    background-color: var(--accent-color);
+    --color5: var(--additional-color);
+  }
