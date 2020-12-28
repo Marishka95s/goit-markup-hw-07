@@ -1,4 +1,4 @@
-// @mixin font-family($family) {
-//     font-family: $family;
-
-// }
+@mixin trans-func($td: 250ms) {
+    transition-duration: $td;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
