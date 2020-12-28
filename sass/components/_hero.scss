@@ -1,4 +1,4 @@
-/* HERO */
+//* HERO */
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -21,6 +21,7 @@
   
     color: $additional-color;
   
+    font-family: $main-font;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -40,6 +41,7 @@
     background-color: $accent-color;
     color: $additional-color;
   
+    font-family: $main-font;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -118,6 +120,7 @@
   .form__title {
     margin-bottom: 12px;
   
+    font-family: $main-font;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -161,6 +164,7 @@
     border-radius: 4px;
     cursor: pointer;
   
+    font-family: $main-font;
     font-size: 16px;
   
     transition-duration: 250ms;
@@ -192,6 +196,7 @@
     max-height: 120px;
 
     &::placeholder {
+      font-family: $main-font;
       font-weight: normal;
       font-size: 14px;
       line-height: 1.14;
@@ -222,6 +227,7 @@
   .checkbox__info {
     align-self: center;
   
+    font-family: $main-font;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -276,6 +282,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   
+    font-family: $main-font, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;

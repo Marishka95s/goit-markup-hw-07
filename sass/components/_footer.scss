@@ -25,6 +25,7 @@
   
     color: $additional-color;
   
+    font-family: $main-font, sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -71,6 +72,7 @@
     color: $additional-color;
     background-color: $footer-color;
   
+    font-family: $main-font, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
@@ -103,6 +105,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   
+    font-family: $main-font, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
