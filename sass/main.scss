@@ -1,17 +1,17 @@
-@import '/Marishka95s/goit-markup-hw-07/sass/utils/variables';
+@import './sass/utils/variables';
 
-@import '/Marishka95s/goit-markup-hw-07/sass/base/modern-normalize.scss';
-@import '/Marishka95s/goit-markup-hw-07/sass/base/container';
-@import '/Marishka95s/goit-markup-hw-07/sass/base/common';
+@import './sass/base/modern-normalize.scss';
+@import './sass/base/container';
+@import './sass/base/common';
 
-@import '/Marishka95s/goit-markup-hw-07/sass/components/header';
+@import './sass/components/header';
 
-@import '/Marishka95s/goit-markup-hw-07/sass/components/hero';
-@import '/Marishka95s/goit-markup-hw-07/sass/components/features';
-@import '/Marishka95s/goit-markup-hw-07/sass/components/examples';
-@import '/Marishka95s/goit-markup-hw-07/sass/components/team';
-@import '/Marishka95s/goit-markup-hw-07/sass/components/clients';
+@import './sass/components/hero';
+@import './sass/components/features';
+@import './sass/components/examples';
+@import './sass/components/team';
+@import './sass/components/clients';
 
-@import '/Marishka95s/goit-markup-hw-07/sass/components/footer';
+@import './sass/components/footer';
 
-@import '/Marishka95s/goit-markup-hw-07/sass/components/portfolio';
+@import './sass/components/portfolio';
