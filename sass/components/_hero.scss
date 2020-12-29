@@ -105,7 +105,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: $additional-color;
   
-    @include trans-func();
+    @include trans-func(250ms);
 
     &:hover, &:focus {
       fill: $accent-color;
@@ -167,20 +167,20 @@
     font-family: $main-font;
     font-size: 16px;
   
-    @include trans-func();
+    @include trans-func(250ms);
 
     &:focus {
       border-color: $accent-color;
       outline: none;
       cursor: pointer;
     
-      @include trans-func();
+      @include trans-func(250ms);
     }
     &:focus ~ .inputs-set__icon {
       fill: $accent-color;
       cursor: pointer;
       
-      @include trans-func();
+      @include trans-func(250ms);
     }
   }
   .inputs-set__input--comment {
@@ -246,7 +246,7 @@
     border: 2px solid $main-text-color;
     border-radius: 2px;
   
-    @include trans-func();
+    @include trans-func(250ms);
   }
   .checkbox__input:checked + .checkbox__icon {
     background-color: $accent-color;
@@ -256,7 +256,7 @@
     border-color: transparent;
     border-radius: 2px;
   
-    @include trans-func();
+    @include trans-func(250ms);
   }
   .form__button {
     display: flex;
